@@ -8,7 +8,7 @@ $ scp user@remotehost:/path/to/file /path/to/local/destination
 Also, you can copy directories as well using the `-r` flag.
 
 ```bash
-$ scp -r /path/to/local/destination user@remotehost:/path/to/dir
+$ scp -r user@remotehost:/path/to/dir /path/to/local/destination
 ```
 
 - [Source 1](http://unix.stackexchange.com/questions/106480/how-to-copy-files-from-one-machine-to-another-using-ssh)
